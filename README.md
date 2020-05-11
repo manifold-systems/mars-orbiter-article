@@ -4,7 +4,7 @@ This project contains the sample code illustrated in the following article:
 <table>
  <tr>
   <td>
-  <p><a href="http://manifold.systems/articles/mars_climate_orbiter.html"><img width="240" height="135" src="/images/mco.jpg" alt="a"></a></p>
+  <p><a href="http://manifold.systems/articles/mars_climate_orbiter.html"><img width="240" height="135" src="http://manifold.systems/images/mco.jpg" alt="a"></a></p>
   </td>
   <td>
   <p><a href="http://manifold.systems/articles/mars_climate_orbiter.html">Type-safe Unit Expressions for Java (and you)</a></p>
