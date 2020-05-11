@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <manifold.version>2020.1.9-SNAPSHOT</manifold.version>
+        <manifold.version>2020.1.10</manifold.version>
     </properties>
 
     <dependencies>
