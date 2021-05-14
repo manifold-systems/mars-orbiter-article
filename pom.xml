@@ -19,12 +19,6 @@
             <artifactId>manifold-science</artifactId>
             <version>${manifold.version}</version>
         </dependency>
-        <!-- manifold-strings enables '$' string templates e.g., "Count: $count" -->
-        <dependency>
-            <groupId>systems.manifold</groupId>
-            <artifactId>manifold-strings</artifactId>
-            <version>${manifold.version}</version>
-        </dependency>
     </dependencies>
 
     <build>
@@ -41,13 +35,9 @@
                         <!-- Configure manifold plugin-->
                         <arg>-Xplugin:Manifold</arg>
                     </compilerArgs>
-                    <!-- Add the processor path for the plugin (required for Java 9+) -->
+                    <!-- Add the processor path -->
                     <annotationProcessorPaths>
-                        <path>
-                            <groupId>systems.manifold</groupId>
-                            <artifactId>manifold-science</artifactId>
-                            <version>${manifold.version}</version>
-                        </path>
+                        <!-- manifold-strings enables '$' string templates e.g., "Count: $count" -->     
                         <path>
                             <groupId>systems.manifold</groupId>
                             <artifactId>manifold-strings</artifactId>
